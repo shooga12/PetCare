@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: Helvetica, sans-serif;
+}
+body {
+  background: rgb(244, 248, 250);
+}
+
+.logo {
+  position: absolute;
+  width: 289px;
+  margin-top: -105px;
+  margin-left: -60px;
+  z-index: 1;
+}
+.REVIEWSlabel {
+  margin: 30;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.REVIEWSlabel {
+  font-size: 2.2rem;
+  font-weight: 500;
+  background-color: rgb(142 180 161);
+  color: #ffffff;
+  padding: 10px 20px;
+  background-image: linear-gradient(
+    to right,
+    rgb(46 84 88),
+    rgb(115, 162, 137)
+  );
+  position: absolute;
+  width: 1450px;
+}
+
+.review1 {
+  display: block;
+  
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 120px;
+  margin-left: 150px;
+  width: 1000px;
+  height: 170px;
+  box-shadow: -1px 9px 16px 0px #b3b3b3;
+  padding-top: 26px;
+  padding-left: 65px;
+  padding-bottom: 31px;
+  padding-right: 39px;
+}
+
+.ownerReview {
+  padding-top: 15px;
+}
+
+.ownerInfo {
+  padding-top: 15px;
+  margin-left: 7px;
+  color: rgb(200 188 141);
+  opacity: 0.9;
+}
+
+.review1 .pic img {
+  width: 59px;
+  border-radius: 70%;
+  margin-left: 60px;
+  margin-top: 150px;
+}
+
+.review2 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 320px;
+  margin-bottom: 150px;
+  margin-left: 150px;
+  width: 1000px;
+  height: 170px;
+  box-shadow: -1px 9px 16px 0px #b3b3b3;
+  padding-top: 26px;
+  padding-left: 65px;
+  padding-bottom: 50px;
+  padding-right: 39px;
+}
+.review3 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 520px;
+  margin-left: 150px;
+  width: 1000px;
+  height: 170px;
+  box-shadow: -1px 9px 16px 0px #b3b3b3;
+  padding-top: 26px;
+  padding-left: 65px;
+  padding-bottom: 50px;
+  padding-right: 39px;
+}
+.content {
+  margin-top: 104px;
+  position: absolute;
+}
+.footer {
+  width: 1440px;
+  height: 154px;
+  position: absolute;
+  margin-top: 900px;
+  box-shadow: antiquewhite;
+  box-shadow: inset 0px -2px 18px 0px rgb(98 126 112);
+  background-color: rgb(142 180 161);
+  opacity: 0.8;
+  text-shadow: 0px 1px 3px #575757;
+}
+.footer .social {
+  margin-left: 1173px;
+  font-size: 35px;
+  margin-top: 72px;
+  letter-spacing: 12px;
+  color: aliceblue;
+}
+.footer p {
+  font-size: 18px;
+  color: aliceblue;
+  margin-left: 84px;
+  margin-top: -26px;
+  /*opacity: 0.9;*/
+}
+.footer a {
+  color: aliceblue;
+}

@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(244, 248, 250);
+}
+.form{
+    background-color: #fff;
+    opacity: 0.95;
+    border-radius: 6px;
+    box-shadow: -2px 3px 8px 0px #dfdcdc;
+    width: 476px;
+    height: 535px;
+    margin-top: 119px;
+    position: absolute;
+    margin-left: 491px;
+    padding: 27px;
+    padding-top: 31px;
+}
+.content{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
+    color: rgb(55,66,98);
+    position: absolute;
+}
+.photo img{
+    width: 58px;
+    border-radius: 50%;
+    
+}
+.photo{
+    display: flex;
+    margin-top: 21px;
+}
+.photo p{
+    margin-top: 21px;
+    margin-left: 12px;
+}
+.FirstName{
+    margin-top: 22px;
+}
+.LastName{
+    margin-top: 22px;
+    margin-left: 33px;
+}
+.Gender{
+    margin-top: 22px;
+}
+.Email{
+    margin-top: 22px;
+}
+.Email input{
+    height: 33px;
+    width: 283px;
+}
+.first{
+    display: flex;
+}
+.first input{
+    height: 33px;
+    width: 183px;
+}
+.content h1{
+    text-align: center;
+}
+#changePass{
+    margin-top: 17px;
+}
+#changePass a:hover{
+    color: #797878;
+}
+.button{
+    margin-top: 22px;
+}
+.button input{
+    background-color: rgb(142 180 161);
+    border-radius: 5px;
+    border: white;
+    width: 100px;
+    margin-left: 160px;
+    margin-top: 10px;
+    position: absolute;
+    font-size: 15px;
+    height: 33px;
+}
+.button button{
+    background-color: rgb(201 124 124);
+    border-radius: 5px;
+    border: white;
+    width: 38px;
+    margin-left: 5px;
+    margin-top: 10px;
+    position: absolute;
+    height: 33px;
+    opacity: 0.7;
+    font-size: 17px;
+}
+.button input:hover{
+    background-color: rgb(193 184 184);
+}
+.button :hover{
+    background-color: rgb(161 146 146);
+}
+.back{
+    margin-top: 62px;
+    position: absolute;
+    margin-left: 268px;
+}
+.back i{
+    font-size: 28px;
+    color: rgb(55 66 98);
+    opacity: 0.9;
+}
+.back i:hover{
+    color :rgb(145 142 142);
+}
+
+.footer{
+    width: 1450px;
+    height: 154px;
+    position: absolute;
+    margin-top: 744px;
+    box-shadow: antiquewhite;
+    box-shadow: inset 0px -2px 18px 0px rgb(98 126 112);
+    background-color: rgb(142 180 161);
+    opacity: 0.8;
+    text-shadow: 0px 1px 3px #575757;
+}
+.footer .social{
+    margin-left: 1173px;
+    font-size: 35px;
+    margin-top: 72px;
+    letter-spacing: 12px;
+    color: aliceblue;
+    
+}
+.footer p{
+    font-size: 18px;
+    color: aliceblue;
+    margin-left: 84px;
+    margin-top: -26px;
+    /*opacity: 0.9;*/
+}
+.footer a{
+    color: aliceblue;
+}
+.logo{
+    position: absolute;
+    width: 289px;
+    margin-top: -105px;
+    margin-left: -60px;
+}
+
+
+.deletbtn {
+    background-color: rgb(201 124 124);
+    border-radius: 5px;
+    border: white;
+    width: 38px;
+    margin-left: 5px;
+    margin-top: 10px;
+    position: absolute;
+    height: 33px;
+    opacity: 0.7;
+    font-size: 17px;
+    padding: 7px 0px 0px 12px;
+    color: #000;
+}

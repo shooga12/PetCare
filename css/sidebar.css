@@ -1,0 +1,76 @@
+.sidebar {
+  position: fixed;
+  right: -250px;
+  width: 250px;
+  height: 100%;
+  background-color: #2e5458;
+  transition: all 0.5s ease;
+}
+.sidebar a {
+  text-decoration: none;
+  display: block;
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+.sidebar li {
+  font-size: 20px;
+  padding-left: 54px;
+  font-family: "Roboto", sans-serif;
+  line-height: 65px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.sidebar ul {
+  margin-top: 91px;
+  list-style: none;
+}
+.sidebar ul a {
+  transition: 0.4s;
+}
+.sidebar ul li:hover a {
+  padding-left: 50px;
+}
+#check {
+  display: none;
+}
+label #btn,
+label #cancel2 {
+  position: absolute;
+  cursor: pointer;
+  border-radius: 3px;
+}
+label #btn {
+  right: 49px;
+  top: 25px;
+  font-size: 35px;
+  color: rgb(55 66 98);
+  padding: 6px 1px;
+}
+label #cancel2 {
+  position: fixed;
+  z-index: 1111;
+  right: -192px;
+  top: 17px;
+  font-size: 30px;
+  color: white;
+  padding: 4px 9px;
+  transition: all 0.5s;
+  background: #2e5458;
+}
+#check:checked ~ .sidebar {
+  right: 0;
+  box-shadow: -1px 0px 13px 0px #000000;
+}
+#check:checked ~ label #btn {
+  right: 250px;
+  opacity: 0;
+  pointer-events: none;
+  margin-right: 100px;
+}
+#check:checked ~ label #cancel2 {
+  right: 192px;
+}
+
+#log :hover {
+  color: rgb(170, 170, 170);
+}

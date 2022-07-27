@@ -1,0 +1,294 @@
+*{ 
+margin :0;
+padding: 0;	
+}
+
+
+body{
+	background-color: #f4f8fa;
+    font-family: "Times New Roman", Times, serif;
+
+}
+.container
+{
+    position: absolute;
+	width:100%;
+	height: 120vh;
+	font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    background-color: #f4f8fa;
+	color: #cce3d7;
+	display: flex;
+	align-items: center ;
+	justify-content: center;
+ background-color: #f4f8fa;
+	
+}
+.container .logo
+{
+    position: absolute;
+    width: 289px;
+    margin-top: -869px;
+    margin-left: -1291px;
+}
+
+.card
+{
+	width:450px;
+	height: 700px;
+	box-shadow: 5px 5px 5px 5px rgba(162, 162, 161);
+	perspective: 1000px;
+}
+.inner-box
+{
+	position: relative;
+     width: 100%;
+     height: 100%;
+     transform-style: preserve-3d;
+     transition: transform 1s;
+}
+.card-front,.card-back
+{
+position: absolute;
+width: 100%;
+height: 100%;
+background-position: center;
+background-size: cover;
+
+background-image: linear-gradient(rgba(46,84,88,0.357) , rgba(115,162,137,0.357)),url(pett.png);
+
+padding: 55px;
+box-sizing: border-box;
+backface-visibility: hidden;
+}
+.card-back
+{
+	transform: rotateY(180deg);
+	color: #082b93;;
+}
+.card h3
+{
+font-weight: bolder;
+font-size:39px ;
+text-align: center;
+    margin-bottom: -80px;
+    margin-top: 10px ;
+color:#2e5458;
+
+}
+.input-box
+{
+
+	width: 100%;
+	background: transparent;
+	border: solid #2f5559;
+	margin : 6px 0;
+	height: 32px;
+	border-radius: 20px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	outline: none;
+	text-align: center;
+	color: #000000;
+    margin-top: 20px;
+}
+button
+{
+	width: 100%;
+	background: rrgb(8,43,147 ,0.39);
+	border: 1.5px solid #2f5559;
+	height: 32px;
+	font-size:10px ;
+	font-weight:bold ;
+	border-radius: 20px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	outline: none;
+	color: #2f5559;
+	cursor: pointer;
+	margin: 6px 0;
+}
+.buttonn
+{
+margin-top: 200px;	
+margin: 0px 0px 0px 0px;
+}
+
+.submit-button
+{
+  margin: 27px 10px 10px 0px;
+
+	
+}
+
+
+a.submit-button{
+    width: 100%;
+    background-color: #EFEFEF;
+    border: 1.5px solid #2f5559;
+    height: 32px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    outline: none;
+    color: #2f5559 !important;
+    cursor: pointer;
+    margin: 6px 0;
+    
+}
+
+span
+{
+	font-size: 15px;
+	margin-left:10px ;
+	margin-bottom: 10px;
+	color: #2e5458;
+}
+.card a 
+{
+	color: #082b93;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	margin-top: 10px;
+
+}
+
+.card-back h4
+{
+	margin-top: 10px;
+font-weight: bolder;
+font-size:19px ;
+text-align: left;
+margin-bottom: 20px ;
+color: #2e5458;
+
+}
+
+form {
+    display: block;
+    margin-top:20px;
+    color: #2e5458;
+    margin: 100px 0;
+
+}
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 138px;
+
+
+}
+.footer{
+    width: 1479px;
+    height: 154px;
+    position: absolute;
+    margin-top: 900px;
+    margin-left: -40px;
+    box-shadow: antiquewhite;
+    box-shadow: inset 0px -2px 18px 0px rgb(98 126 112);
+    background-color: rgb(142 180 161);
+    opacity: 0.8;
+    text-shadow: 0px 1px 3px #575757;
+
+}
+.footer .social{
+    margin-left: 1173px;
+    font-size: 35px;
+    margin-top: 72px;
+    letter-spacing: 12px;
+    color: aliceblue;
+    
+}
+.footer p{
+    font-size: 18px;
+    color: aliceblue;
+    margin-left: 84px;
+    margin-top: -26px;
+}
+.footer a{
+    color: aliceblue;
+}
+
+.sidebar
+{
+    position: fixed;
+    right: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #2e5458;
+    transition: all .5s ease;
+}
+.sidebar a{
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+.sidebar li{
+    font-size: 20px;
+    padding-left: 54px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 65px;
+    border: 1px solid rgba(255,255,255,.1);
+    List-style : none;
+}
+.sidebar ul{
+    margin-top: 91px;
+}
+.sidebar ul a{
+    transition: .4s;
+}
+.sidebar ul li:hover a{
+    padding-left: 50px;
+}
+#check{
+    display: none;
+}
+label #btn,label #cancel2{
+    position: absolute;
+    cursor: pointer;
+    border-radius: 3px;
+}
+label #btn{
+    right: 49px;
+    top: 25px;
+    font-size: 35px;
+    color: rgb(55 66 98);
+    padding: 6px 1px;
+}
+label #cancel2{
+    position: fixed;
+    z-index: 1111;
+    right: -192px;
+    top: 17px;
+    font-size: 30px;
+    color: white;
+    padding: 4px 9px;
+    transition: all .5s;
+    background: #2e5458;
+}
+#check:checked ~ .sidebar{
+    right: 0;
+    box-shadow: -1px 0px 13px 0px #000000;
+}
+#check:checked ~ label #btn{
+    right: 250px;
+    opacity: 0;
+    pointer-events: none;
+}
+#check:checked ~ label #cancel2{
+    right: 192px;
+}
+#log :hover{
+    color: rgb(170, 170, 170);
+}
+
+
+
+

@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(244, 248, 250);
+}
+.form{
+    background-color: #fff;
+    opacity: 0.95;
+    border-radius: 6px;
+    box-shadow: -2px 3px 8px 0px #dfdcdc;
+    width: 476px;
+    height: 575px;
+    margin-top: 119px;
+    position: absolute;
+    margin-left: 491px;
+    padding: 27px;
+    padding-top: 31px;
+}
+.content{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
+    color: rgb(55,66,98);
+    position: absolute;
+}
+.petphoto img{
+    width: 58px;
+    border-radius: 50%;
+    
+}
+.petphoto{
+    display: flex;
+    margin-top: 21px;
+}
+.petphoto p{
+    margin-top: 21px;
+    margin-left: 12px;
+}
+.name{
+    margin-top: 22px;
+}
+.Birthday{
+    margin-top: 22px;
+    margin-left: 33px;
+}
+.Gender{
+    margin-top: 22px;
+}
+.Breed{
+    margin-top: 22px;
+}
+.spayed{
+    margin-top: 22px;
+    margin-left: 20px;
+}
+.spayed select{
+    width: 67px;
+}
+.first{
+    display: flex;
+}
+.form input{
+    height: 33px;
+    width: 183px;
+}
+.second{
+    display: flex;
+}
+.content h1{
+    text-align: center;
+}
+.third{
+    display: flex;
+}
+.vacc{
+    margin-top: 22px;
+}
+.history{
+    margin-top: 22px;
+    margin-left: 20px;
+}
+.button{
+    margin-top: 22px;
+}
+.button input{
+    background-color: rgb(142 180 161);
+    border-radius: 5px;
+    border: white;
+    width: 100px;
+    margin-left: 160px;
+    margin-top: 10px;
+}
+
+.footer{
+    width: 1450px;
+    height: 111px;
+    position: absolute;
+    margin-top: 710px;
+    box-shadow: antiquewhite;
+    box-shadow: inset 0px -2px 18px 0px rgb(98 126 112);
+    background-color: rgb(142 180 161);
+    opacity: 0.9;
+}
+
+.back{
+    margin-top: 62px;
+    position: absolute;
+    margin-left: 268px;
+}
+.back i{
+    font-size: 28px;
+    color: rgb(55 66 98);
+    opacity: 0.9;
+}
+.back i:hover{
+    color :rgb(145 142 142);
+}
+.button input:hover{
+    background-color: rgb(193 184 184);
+}
+
+.footer{
+    width: 1450px;
+    height: 154px;
+    position: absolute;
+    margin-top: 744px;
+    box-shadow: antiquewhite;
+    box-shadow: inset 0px -2px 18px 0px rgb(98 126 112);
+    background-color: rgb(142 180 161);
+    opacity: 0.8;
+    text-shadow: 0px 1px 3px #575757;
+}
+.footer .social{
+    margin-left: 1173px;
+    font-size: 35px;
+    margin-top: 72px;
+    letter-spacing: 12px;
+    color: aliceblue;
+    
+}
+.footer p{
+    font-size: 18px;
+    color: aliceblue;
+    margin-left: 84px;
+    margin-top: -26px;
+}
+.footer a{
+    color: aliceblue;
+}
+
+.sidebar{
+    position: fixed;
+    right: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #2e5458;
+    transition: all .5s ease;
+}
+.sidebar a{
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+.sidebar li{
+    font-size: 20px;
+    padding-left: 54px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 65px;
+    border: 1px solid rgba(255,255,255,.1);
+}
+.sidebar ul{
+    margin-top: 91px;
+    list-style: none;
+}
+.sidebar ul a{
+    transition: .4s;
+}
+.sidebar ul li:hover a{
+    padding-left: 50px;
+}
+#check{
+    display: none;
+}
+label #btn,label #cancel2{
+    position: absolute;
+    cursor: pointer;
+    border-radius: 3px;
+}
+label #btn{
+    right: 49px;
+    top: 25px;
+    font-size: 35px;
+    color: rgb(55 66 98 / 74%);
+    padding: 6px 1px;
+    text-shadow: 0px 1px 3px #ccc8c8;
+}
+label #cancel2{
+    position: fixed;
+    z-index: 1111;
+    right: -192px;
+    top: 17px;
+    font-size: 30px;
+    color: white;
+    padding: 4px 9px;
+    transition: all .5s;
+    background: #2e5458;
+}
+#check:checked ~ .sidebar{
+    right: 0;
+    box-shadow: -1px 0px 13px 0px #000000;
+}
+#check:checked ~ label #btn{
+    right: 250px;
+    opacity: 0;
+    pointer-events: none;
+}
+#check:checked ~ label #cancel2{
+    right: 192px;
+}
+#log :hover{
+    color: rgb(170, 170, 170);
+}
+.logo{
+    position: absolute;
+    width: 289px;
+    margin-top: -105px;
+    margin-left: -60px;
+}

@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: whitesmoke;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 200;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.container {
+  position: absolute;
+  background-color: #fafafa;
+  margin: 250px;
+  box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  margin-top: -70px;
+}
+
+.logo {
+  width: 289px;
+  margin-top: -105px;
+  margin-left: -60px;
+}
+
+.container-time {
+  background-image: linear-gradient(
+    to right,
+    rgb(46 84 88),
+    rgb(115, 162, 137)
+  );
+  padding: 50px;
+  outline: 3px dashed #c8bc8d;
+  color: #9c8b4b;
+  outline-offset: -30px;
+  text-align: center;
+  width: 320px;
+  height: 560px;
+}
+
+.heading {
+  margin-top: 60px;
+  font-size: 40px;
+}
+
+.-days {
+  margin-top: 40px;
+  color: #c8bc8d;
+
+  font-size: 19px;
+}
+.heading-booking {
+  margin-top: 10px;
+  color: #c8bc8d;
+}
+
+hr {
+  margin-top: 40px;
+}
+.-phone {
+  margin-top: 20px;
+  font-size: 19px;
+}
+
+.container-form {
+  padding: 20px 0;
+  margin: 0px 19px 0px 18px;
+  color: #000;
+}
+
+form {
+  display: flex;
+  grid-row-gap: 20px;
+}
+
+p {
+  font-weight: bold;
+  color: #9c8b4b;
+}
+
+input,
+select {
+  padding: 10px 0px 0px 0px;
+  margin-right: 20px;
+}
+
+button {
+  background: #6f9d86;
+  width: 100px;
+  height: 35px;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 30px;
+  box-shadow: 0px 5px 15px rgba(28, 0, 181, 0.3);
+  margin-top: 20px;
+  margin-right: 190px;
+}
+.footer {
+  width: 1479px;
+  height: 154px;
+  position: absolute;
+  margin-top: 600px;
+  margin-left: -40px;
+  box-shadow: antiquewhite;
+  box-shadow: inset 0px -2px 18px 0px rgb(98 126 112);
+  background-color: rgb(142 180 161);
+  opacity: 0.8;
+  text-shadow: 0px 1px 3px #575757;
+}
+.footer .social {
+  margin-left: 1173px;
+  font-size: 35px;
+  margin-top: 72px;
+  letter-spacing: 12px;
+  color: aliceblue;
+}
+.footer p {
+  font-size: 18px;
+  color: aliceblue;
+  margin-left: 84px;
+  margin-top: -26px;
+}
+.footer a {
+  color: aliceblue;
+}
+.sidebar {
+  position: fixed;
+  right: -250px;
+  width: 250px;
+  height: 100%;
+  background-color: #2e5458;
+  transition: all 0.5s ease;
+  margin-top: -190px;
+}
+.sidebar a {
+  text-decoration: none;
+  display: block;
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+.sidebar li {
+  font-size: 20px;
+  padding-left: 54px;
+  font-family: "Roboto", sans-serif;
+  line-height: 65px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  list-style: none;
+}
+.sidebar ul {
+  margin-top: 91px;
+}
+.sidebar ul a {
+  transition: 0.4s;
+}
+.sidebar ul li:hover a {
+  padding-left: 50px;
+}
+#check {
+  display: none;
+}
+label #btn,
+label #cancel2 {
+  position: absolute;
+  cursor: pointer;
+  border-radius: 3px;
+}
+label #btn {
+  right: 49px;
+  top: 25px;
+  font-size: 35px;
+  color: rgb(55 66 98);
+  padding: 6px 1px;
+}
+label #cancel2 {
+  position: fixed;
+  z-index: 1111;
+  right: -192px;
+  top: 17px;
+  font-size: 30px;
+  color: white;
+  padding: 4px 9px;
+  transition: all 0.5s;
+  background: #2e5458;
+}
+#check:checked ~ .sidebar {
+  right: 0;
+  box-shadow: -1px 0px 13px 0px #000000;
+}
+#check:checked ~ label #btn {
+  right: 250px;
+  opacity: 0;
+  pointer-events: none;
+}
+#check:checked ~ label #cancel2 {
+  right: 192px;
+}
+#log :hover {
+  color: rgb(170, 170, 170);
+}
+
+.back {
+  margin-top: -79px;
+  position: absolute;
+  margin-left: 30px;
+}
+.back i {
+  font-size: 28px;
+  color: rgb(55 66 98);
+  opacity: 0.9;
+}
+.back i:hover {
+  color: rgb(145 142 142);
+}
+.button input:hover {
+  background-color: rgb(193 184 184);
+}

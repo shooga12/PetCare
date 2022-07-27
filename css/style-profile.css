@@ -1,0 +1,591 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: Helvetica, sans-serif;
+}
+body {
+  background: rgb(244, 248, 250);
+}
+/* wrapper -----------------------------------------------------------------------------------------------------*/
+.wrapper {
+  position: absolute;
+  width: 1450px;
+  height: 400px;
+  display: inherit;
+  background-image: linear-gradient(
+    to right,
+    rgb(46 84 88),
+    rgb(115, 162, 137)
+  );
+}
+.wrapper .up {
+  padding: 75px 200px;
+  display: flex;
+  color: #fff;
+}
+.wrapper .up img {
+  margin-bottom: 10px;
+  border-radius: 50%;
+  height: 100px;
+}
+.wrapper .up .detail {
+  display: flex;
+  flex-direction: column;
+  font-weight: lighter;
+}
+.wrapper .up p {
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+.wrapper .up .name {
+  font-size: 30px;
+}
+.wrapper .up .name_info {
+  font-size: 14px;
+  color: rgb(200 188 141);
+}
+.wrapper .up .name_info i {
+  color: #fff;
+}
+.wrapper .up .detail .more-detail {
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: 600pt;
+}
+.wrapper .up .edit {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+.wrapper .up .edit a {
+  color: rgb(249, 252, 254);
+  font-size: 14px;
+  opacity: 0.8;
+}
+.wrapper .up .edit a:hover {
+  color: rgb(175, 175, 175);
+}
+/* End of wrapper -----------------------------------------------------------------------------------------------------*/
+.pets1 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 323px;
+  margin-left: 122px;
+  width: 651px;
+  box-shadow: -1px 9px 16px 0px #b3b3b3;
+  padding-top: 26px;
+  padding-left: 65px;
+  padding-bottom: 31px;
+  padding-right: 39px;
+}
+.pet-name {
+  display: flex;
+}
+.pets1 .pet-name img {
+  width: 59px;
+  border-radius: 50%;
+  margin-left: 16px;
+}
+.pet-name .pet-subject {
+  padding-top: 15px;
+}
+.pet-name .pet-details {
+  padding-top: 15px;
+}
+.pet-more-details {
+  padding-top: 15px;
+  margin-left: 7px;
+  color: rgb(200 188 141);
+  opacity: 0.9;
+}
+.pets1 p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+.pet-details {
+  color: rgb(113 155 133);
+  margin-left: 12px;
+}
+.pet-subject {
+  color: rgb(55, 66, 98);
+}
+.dateOfBirth {
+  display: flex;
+  margin: 10px 0px;
+}
+.gender {
+  display: flex;
+  margin: 4px 0px;
+}
+.spayed {
+  display: flex;
+  margin: 8px 0px;
+}
+.pets1 hr {
+  margin-top: 16px;
+}
+.vaccine {
+  margin-top: 19px;
+}
+.left li {
+  list-style-type: circle;
+  color: rgb(113 155 133);
+  margin-left: 32px;
+  margin-top: 15px;
+  font-size: 17px;
+  font-family: "Times New Roman", Times, serif;
+}
+#sec {
+  margin-top: 8px;
+}
+.history {
+  margin-top: -44px;
+  margin-left: 298px;
+}
+.button {
+  margin-top: 53px;
+}
+.button .icon {
+  margin-top: -296px;
+  margin-left: 521px;
+  font-size: 29px;
+  opacity: 0.9;
+}
+.button a {
+  color: rgb(113 155 133);
+}
+.button a:hover {
+  color: #b3b3b3;
+}
+.button .icon2 {
+  margin-top: -34px;
+  margin-left: 488px;
+  font-size: 28px;
+  opacity: 0.9;
+  width: fit-content;
+}
+/* End of First Pet -----------------------------------------------------------------------------------------------------*/
+.pets2 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 724px;
+  margin-left: 122px;
+  width: 651px;
+  box-shadow: -1px 9px 16px 0px #b3b3b3;
+  padding-top: 26px;
+  padding-left: 65px;
+  padding-bottom: 31px;
+  padding-right: 39px;
+}
+.pets2 .pet-name img {
+  width: 59px;
+  border-radius: 50%;
+  margin-left: 16px;
+}
+.pets2 p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+.pets2 hr {
+  margin-top: 16px;
+}
+.pets2 .button .icon {
+  margin-top: -273px;
+  margin-left: 521px;
+  font-size: 29px;
+}
+/* End of Second Pet -----------------------------------------------------------------------------------------------------*/
+.pets3 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 1098px;
+  margin-left: 122px;
+  width: 651px;
+  box-shadow: -1px 9px 16px 0px #b3b3b3;
+  padding-top: 26px;
+  padding-left: 65px;
+  padding-bottom: 31px;
+  padding-right: 39px;
+}
+.pets3 .pet-name img {
+  width: 59px;
+  border-radius: 50%;
+  margin-left: 16px;
+}
+.pets3 p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+.pets3 hr {
+  margin-top: 16px;
+}
+/* End of Third Pet -----------------------------------------------------------------------------------------------------*/
+.appoint {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 323px;
+  margin-left: 829px;
+  width: 483px;
+  box-shadow: -1px 9px 16px 0px #b3b3b3;
+  padding-top: 26px;
+  padding-left: 65px;
+  padding-bottom: 31px;
+  padding-right: 39px;
+  overflow: scroll;
+  height: 530px;
+}
+.headline h3 {
+  margin-top: 14px;
+  color: rgb(120, 122, 128);
+  font-family: "Trebuchet MS", sans-serif;
+  letter-spacing: 2.5px;
+  font-size: 22px;
+  padding-bottom: 15px;
+}
+.appoint p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+.appoint-subject {
+  color: rgb(55, 66, 98);
+}
+.appoint-details {
+  color: rgb(113 155 133);
+  margin-left: 12px;
+}
+.appoint-name {
+  display: flex;
+}
+.appoint-service {
+  display: flex;
+  margin-top: 10px;
+}
+.appoint-date {
+  display: flex;
+  margin-top: 10px;
+}
+.appoint-time {
+  display: flex;
+  margin-top: 10px;
+}
+.info {
+  margin-top: 24px;
+  position: relative;
+}
+.notes {
+  margin-top: 32px;
+}
+.act-note {
+  background-color: rgb(241 240 238);
+  width: 22px 67px;
+  border-radius: 4px;
+  padding-top: 10px;
+  opacity: 0.6;
+  margin-top: 10px;
+  padding-bottom: 73px;
+  padding-left: 13px;
+}
+.actualNote {
+  font-size: 19px;
+}
+.appoint .button {
+  display: flex;
+  margin-top: -288px;
+  margin-left: 307px;
+  position: absolute;
+  opacity: 0.9;
+}
+.button .icon3 {
+  font-size: 26px;
+  margin-right: 4px;
+}
+.button .icon4 {
+  font-size: 26px;
+}
+.info hr {
+  margin-top: 23px;
+}
+.inside {
+  height: 477px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+#second {
+  margin-top: 55px;
+}
+.appoint .arrow p {
+  position: absolute;
+  margin-left: -41px;
+  margin-top: -20px;
+  color: rgb(115 162 137);
+  font-size: 24px;
+}
+.inside::-webkit-scrollbar {
+  width: 10px;
+}
+.inside::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+.inside::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 3px;
+}
+.inside::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/* End of appoint requests -----------------------------------------------------------------------------------------------------*/
+.upcoming-appoint {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 885px;
+  margin-left: 829px;
+  width: 483px;
+  box-shadow: -1px 9px 16px 0px #b3b3b3;
+  padding-top: 26px;
+  padding-left: 65px;
+  padding-bottom: 31px;
+  padding-right: 39px;
+  overflow: scroll;
+  height: 530px;
+}
+.upcoming-appoint p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+.upcoming-appoint .button {
+  display: flex;
+  margin-top: -286px;
+  margin-left: 286px;
+  position: absolute;
+  border: 4px solid rgb(64 86 124);
+  border-radius: 5px;
+  padding: 3px;
+  background: rgb(64 86 124);
+  opacity: 0.7;
+}
+.upcoming-appoint .button p {
+  font-size: 18px;
+  color: rgb(249 252 254);
+}
+.upcoming-appoint p:hover {
+  color: rgb(0, 0, 0);
+}
+.upcoming-appoint .arrow p {
+  position: absolute;
+  margin-left: -41px;
+  margin-top: -20px;
+  color: rgb(115 162 137);
+  font-size: 24px;
+}
+/* End of upcoming appoint -----------------------------------------------------------------------------------------------------*/
+.prev-appoint {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 1448px;
+  margin-left: 829px;
+  width: 483px;
+  box-shadow: -1px 9px 16px 0px #b3b3b3;
+  padding-top: 26px;
+  padding-left: 65px;
+  padding-bottom: 31px;
+  padding-right: 39px;
+  overflow: scroll;
+  height: 530px;
+}
+.prev-appoint p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+.prev-appoint .button {
+  display: flex;
+  margin-top: -286px;
+  margin-left: 286px;
+  position: absolute;
+  border: 4px solid rgb(64 86 124);
+  border-radius: 5px;
+  padding: 3px;
+  background: rgb(64 86 124);
+  opacity: 0.7;
+}
+.prev-appoint .button p {
+  font-size: 18px;
+  color: rgb(249 252 254);
+}
+
+.prev-appoint p:hover {
+  color: rgb(0, 0, 0);
+}
+.prev-appoint .arrow p {
+  position: absolute;
+  margin-left: -41px;
+  margin-top: -20px;
+  color: rgb(115 162 137);
+  font-size: 24px;
+}
+/* End of upcoming appoint -----------------------------------------------------------------------------------------------------*/
+.addpet {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(142 180 161);
+  border-radius: 10px;
+  margin-top: 1496px;
+  margin-left: 122px;
+  width: 651px;
+  box-shadow: -1px 9px 16px 0px #b3b3b3;
+  padding-top: 26px;
+  padding-left: 65px;
+  padding-bottom: 31px;
+  padding-right: 39px;
+  height: 138px;
+}
+.addpet .ins {
+  margin-top: 22px;
+  margin-left: 33px;
+  opacity: 0.95;
+}
+.addpet p {
+  position: absolute;
+  color: rgb(249 252 254);
+  font-size: 40px;
+}
+.addpet h4 {
+  position: absolute;
+  color: rgb(249 252 254);
+  font-size: 33px;
+  margin-left: 56px;
+  margin-top: 3px;
+  font-family: "Trebuchet MS", sans-serif;
+  letter-spacing: 5px;
+}
+
+.footer {
+  width: 1450px;
+  height: 154px;
+  position: absolute;
+  margin-top: 2138px;
+  box-shadow: antiquewhite;
+  box-shadow: inset 0px -2px 18px 0px rgb(98 126 112);
+  background-color: rgb(142 180 161);
+  opacity: 0.8;
+  text-shadow: 0px 1px 3px #575757;
+}
+.footer .social {
+  margin-left: 1173px;
+  font-size: 35px;
+  margin-top: 72px;
+  letter-spacing: 12px;
+  color: aliceblue;
+}
+.footer p {
+  font-size: 18px;
+  color: aliceblue;
+  margin-left: 84px;
+  margin-top: -26px;
+}
+.footer a {
+  color: aliceblue;
+}
+/* Start of sidebar--------------------------------------------*/
+.sidebar {
+  position: fixed;
+  right: -250px;
+  width: 250px;
+  height: 100%;
+  background-color: #2e5458;
+  transition: all 0.5s ease;
+}
+.sidebar a {
+  text-decoration: none;
+  display: block;
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+.sidebar li {
+  font-size: 20px;
+  padding-left: 54px;
+  font-family: "Roboto", sans-serif;
+  line-height: 65px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.sidebar ul {
+  margin-top: 91px;
+}
+.sidebar ul a {
+  transition: 0.4s;
+}
+.sidebar ul li:hover a {
+  padding-left: 50px;
+}
+#check {
+  display: none;
+}
+label #btn,
+label #cancel2 {
+  position: absolute;
+  cursor: pointer;
+  border-radius: 3px;
+}
+label #btn {
+  right: 49px;
+  top: 25px;
+  font-size: 35px;
+  color: rgb(55 66 98);
+  padding: 6px 1px;
+}
+label #cancel2 {
+  position: fixed;
+  z-index: 1111;
+  right: -192px;
+  top: 17px;
+  font-size: 30px;
+  color: white;
+  padding: 4px 9px;
+  transition: all 0.5s;
+  background: #2e5458;
+}
+#check:checked ~ .sidebar {
+  right: 0;
+  box-shadow: -1px 0px 13px 0px #000000;
+}
+#check:checked ~ label #btn {
+  right: 250px;
+  opacity: 0;
+  pointer-events: none;
+}
+#check:checked ~ label #cancel2 {
+  right: 192px;
+}
+#log :hover {
+  color: rgb(170, 170, 170);
+}
+.logo {
+  position: absolute;
+  width: 289px;
+  margin-top: -105px;
+  margin-left: -60px;
+  z-index: 1;
+}
